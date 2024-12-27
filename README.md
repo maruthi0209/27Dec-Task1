@@ -8,12 +8,13 @@
    console.log(result);
    ```  
    Answer : B
+   
    a) `[1, 2, 3, 4]`  
    b) `[2, 4, 6, 8]`  
    c) `[4, 8, 12, 16]`  
    d) `undefined`  
 
-2. **What will the result of this code be?**  
+3. **What will the result of this code be?**  
    ```javascript
    const arr = [10, 20, 30];
    const result = arr.map((num) => num.toString());
@@ -25,7 +26,7 @@
    c) `['10', 20, '30']`  
    d) `undefined`  
 
-3. **Which of the following transforms each string to uppercase?**  
+4. **Which of the following transforms each string to uppercase?**  
    ```javascript
    const arr = ['a', 'b', 'c'];
    ```  
@@ -35,7 +36,7 @@
    c) `arr.filter(str => str.toUpperCase());`  
    d) `arr.map(str => str.toLowerCase());`  
 
-4. **What will this code return?**  
+5. **What will this code return?**  
    ```javascript
    const arr = [4, 5, 6];
    const result = arr.map(num => num + 1).filter(num => num > 5);
@@ -47,7 +48,7 @@
    c) `[6, 7]`  
    d) `[7]`  
 
-5. **What happens if `map` callback does not return a value?**  
+6. **What happens if `map` callback does not return a value?**  
    ```javascript
    const arr = [1, 2, 3];
    const result = arr.map((num) => {
